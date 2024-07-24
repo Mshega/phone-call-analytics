@@ -51,13 +51,12 @@ __published:	// IDE-managed Components
 
 private:	// User declarations
 public:		// User declarations
-   //AnsiString TempDesc;
-   //	AnsiString TempCode;
-	__fastcall TfrmST1(TComponent* Owner);                  // provided
+   
+	__fastcall TfrmST1(TComponent* Owner);                  
 	void Heading1();
-    void Heading2();
-	AnsiString getFieldNrFrom(AnsiString aLine, int fieldNr, char delim);
-															  // delete?
+    	void Heading2();
+
+	AnsiString getFieldNrFrom(AnsiString aLine, int fieldNr, char delim);													  
 	AnsiString CallDuration(AnsiString startT, AnsiString endT);
 
 };
