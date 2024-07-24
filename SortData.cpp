@@ -27,13 +27,12 @@ void __fastcall TForm1::SortData(TObject *Sender)
     else // If the second radio button is selected (Starting Time)
     {
         // Sort items by the 2nd field (Starting Time) after splitting the string by tab
-        std::sort(items.begin(), items.end(), [](AnsiString a, AnsiString b) {
+        std::sort(items.begin(), items.end(), [](AnsiString a, AnsiString b)
+            {
             return SplitString(a, "\t")[1] < SplitString(b, "\t")[1];
         });
     }
-
-    // Clear the current items in ListBox1
-    ListBox1->Clear();
+    ListBox1->Clear(); // Clear the current items in ListBox1
 
     // Add the sorted items back to ListBox1
     for (const auto& item : items)
