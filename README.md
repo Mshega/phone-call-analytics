@@ -28,7 +28,7 @@ This project is a C++ Builder application designed to analyze one month of phone
 
 ## Conclusion
 
-The Phone Call Data Analysis Application provides a comprehensive solution for analyzing phone call data over a month. By leveraging C++ Builder, the application offers a user-friendly interface to dynamically load, display, and process call data from a CSV file. The implementation of features such as calculating call durations, sorting data, and generating reports based on specific criteria demonstrates the application’s robust functionality. This project not only fulfills the requirements of the practical test for Technical Programming 2 but also showcases the practical application of C++ in handling and analyzing real-world data.
+The Phone Call Data Analysis Application provides a comprehensive solution for analyzing phone call data over a month. By leveraging C++ Builder, the application offers a user-friendly interface to dynamically load, display, and process call data from a CSV file. The implementation of features such as calculating call durations, sorting data, and generating reports based on specific criteria demonstrates the application’s robust functionality. 
 
 The structured and modular approach in the code ensures ease of maintenance and scalability, allowing future enhancements and adaptations. The clear setup instructions and well-documented code further facilitate understanding and utilization of the application by other developers or users.
 
