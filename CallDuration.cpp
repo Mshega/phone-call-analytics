@@ -1,9 +1,9 @@
-#include <vcl.h> // VCL library for AnsiString and GUI components
-#include <string> // Standard string library
-#include <sstream> // Library for string stream operations
+#include <vcl.h> 
+#include <string> 
+#include <sstream>
 #pragma hdrstop // Stops the precompiled header
 
-#include "CallDuration.h" // Include the header file for the CallDuration function
+#include "CallDuration.h" 
 
 #pragma package(smart_init) // Initializes the package
 
