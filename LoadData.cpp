@@ -15,6 +15,7 @@ void __fastcall TForm1::LoadData(TObject *Sender)
     std::string line; // Variable to store each line from the file
     
     ListBox1->Clear(); // Clear the ListBox before adding new items
+    
     Heading1(); // Call Heading1 function to set up any necessary headings
 
     // Read the file line by line
@@ -22,7 +23,8 @@ void __fastcall TForm1::LoadData(TObject *Sender)
     {
         String s(line.c_str()); // Convert the std::string to a VCL String
         s = StringReplace(s, "#", "\t", TReplaceFlags() << rfReplaceAll); // Replace all '#' characters with tab characters
-        ListBox1->Items->Add(s); v
+        
+        ListBox1->Items->Add(s); 
     }
 
     lblCalls->Caption = "Total Calls: " + IntToStr(ListBox1->Items->Count); // Update the label with the total number of calls
