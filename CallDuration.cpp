@@ -7,7 +7,6 @@
 
 #pragma package(smart_init) // Initializes the package
 
-// Function to calculate the duration between two times given in "HH:MM:SS" format
 AnsiString CallDuration(AnsiString start, AnsiString end) 
 {
     int start_h, start_m, start_s; // Variables for start time hours, minutes, and seconds
