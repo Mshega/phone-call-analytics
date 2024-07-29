@@ -58,7 +58,6 @@ public:		// User declarations
 
 	AnsiString getFieldNrFrom(AnsiString aLine, int fieldNr, char delim);													  
 	AnsiString CallDuration(AnsiString startT, AnsiString endT);
-
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TfrmST1 *frmST1;
